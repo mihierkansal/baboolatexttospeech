@@ -1,34 +1,11 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
-  color-scheme: light;
   color: rgba(255, 255, 255, 0.87);
   background-color: #222;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
 }
 
 body {
-  margin: 0;
   display: grid;
   place-items: center;
   min-height: 100vh;
@@ -39,37 +16,6 @@ h1 {
   line-height: 1.1;
 }
 
-button,
-select {
-  border-radius: 999rem;
-  border: 1px solid grey;
-  padding: 0.5rem 1rem;
-  font-size: 1em;
-  outline: 0;
-  font-family: inherit;
-  color: black;
-  background: linear-gradient(to bottom, white, #ddd);
-  cursor: pointer;
-  transition: border-color 0.25s;
-  text-shadow: 0 -1px 1px #0004, 0 1px 1px white;
-  box-shadow: 0 -2px 2px #0002, 0 3px 2px #fff, inset 0 0 9px #0003;
-  transition: all 0.1s;
-  & > span {
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.1s;
-  }
-  &:active {
-    color: #4488aa;
-    box-shadow: 0 -2px 2px #0002, 0 3px 2px #fff, inset 0 0 15px #0008;
-
-    & > span {
-      scale: 0.9;
-    }
-  }
-}
 select {
   width: 100%;
 }

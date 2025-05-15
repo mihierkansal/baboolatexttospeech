@@ -1,5 +1,5 @@
 import { createSignal, For } from "solid-js";
-
+import "baboolastyles/public/plastic.css";
 function App() {
   const voices = createSignal<SpeechSynthesisVoice[]>(
     window.speechSynthesis.getVoices()
